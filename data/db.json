@@ -1,0 +1,58 @@
+{
+    "estate": [
+      {
+        "id": 1,
+        "type": "House",
+        "price": "$320,000.00",
+        "image": "./images/chuttersnap-348307-unsplash-1-2.png",
+        "name": "272 S Rexford Dr",
+        "ubication": "Beverly Hills, CA",
+        "area": "2400 Sq Ft"
+      },
+      {
+        "id": 2,
+        "type": "House",
+        "price": "$320,000.00",
+        "image": "./images/ostap-senyuk-136511-unsplash-2.png",
+        "name": "272 S Rexford Dr",
+        "ubication": "Brickell, FL",
+        "area": "2400 Sq Ft"
+      },
+      {
+        "id": 3,
+        "type": "Apartment",
+        "price": "$220,000.00",
+        "image": "./images/anna-sullivan-635346-unsplash-1.png",
+        "name": "272 S Rexford Dr",
+        "ubication": "Hudson Valley, NY",
+        "area": "2400 Sq Ft"
+      },
+      {
+        "id": 4,
+        "type": "House",
+        "price": "$400,000.00",
+        "image": "./images/pixasquare-622732-unsplash-2.png",
+        "name": "272 S Rexford Dr",
+        "ubication": "Hollywood, CA",
+        "area": "2400 Sq Ft"
+      },
+      {
+        "id": 5,
+        "type": "Apartment",
+        "price": "$200,000.00",
+        "image": "./images/naomi-hebert-188443-unsplash-1.png",
+        "name": "272 S Rexford Dr",
+        "ubication": "Beverly Hills, CA",
+        "area": "2400 Sq Ft"
+      },
+      {
+        "id": 6,
+        "type": "Building",
+        "price": "$600,000.00",
+        "image": "./images/lily-banse-330451-unsplash-1.png",
+        "name": "272 S Rexford Dr",
+        "ubication": "Beverly Hills, CA",
+        "area": "2400 Sq Ft"
+      }
+    ]
+  }

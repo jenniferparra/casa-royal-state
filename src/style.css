@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body button {
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.top_header {
+    display: flex;
+    background-color: #2A41E8;
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_p {
+    display: inline-flex;
+    gap: 50px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+.top_header button {
+    font-size: 14px;
+    font-weight: 500;
+    background-color:#2A41E8;
+    padding: 18px 30px;
+    border-left: 1px solid white;
+    align-items: center;
+}
+.main_header {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.header_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+.header_list {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    align-items: center;
+    color: #4B4D4F;
+    cursor: pointer;
+    gap: 50px;
+}
+.header_list li:hover {
+    text-decoration: underline;
+}
+.homepage {
+    color: #2A41E8;
+}
+.button {
+    display: flex;
+    align-items: center;
+    gap: 78px;
+}
+.main_header button {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #FF5E14;
+    padding: 20px 27px;
+    letter-spacing: 1px;
+}
+.sct_1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: url(./images/hero-bg-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.sct1_txt {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    line-height: 50px;
+    margin: 125px 0 50px 165px;
+    font-size: 25px;
+}
+.sct1_txt p {
+    font-size: 20px;
+}
+.white_box {
+    display: flex;
+    background-color: white;
+    height: 80px;
+    width: 78%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.input {
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-color: #8C8C8C;
+    border-style: solid;
+}
+.white_box button {
+    background-color:#2A41E8;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 2px;
+}
+#fav {
+    background-color: rgb(253, 44, 44);
+}
+.sct_2 {
+    display: flex;
+    flex-direction: column;
+}
+.sct2_txt {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    align-items: center;
+    font-size: 14px;
+    gap: 30px;
+}
+#casaroyal_txt {
+    color: #8C8C8C;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+#featured {
+    text-transform: capitalize;
+    font-size: 46px;
+    margin-bottom: 100px;
+}
+.card_flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 200px;
+}
+.card {
+    width: 320px;
+    margin-bottom: 40px;
+}
+.card__image {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.details_flex {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 50px;
+}
+.eye {
+    width: 10%;
+    background-color:#FF5E14;
+    border-radius: 3px;
+    margin-left: 240px;
+    cursor: pointer;
+}
+.fav_img {
+    width: 9%;
+    height: 8%;
+    background-color:#2A41E8;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card__description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+.description__details, .description__name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.description__name {
+    align-items: flex-end;
+    font-weight: bold;
+}
+.btn_container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+#homepage {
+    margin-right: 40px;
+    font-size: 15px;
+    color: #2A41E8;
+}
+.fav_flex {
+    display: flex;
+    justify-content: center;
+}
+#title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
